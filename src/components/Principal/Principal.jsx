@@ -1,12 +1,13 @@
 import React from 'react'
 import './Principal.css'
+import casaLujo from '../../assets/casa-lujo.jpg'
 const Principal = () => {
   return (
-    <div>
+    <div className='main'>
       <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img src={casaLujo} className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
       <img src="..." className="d-block w-100" alt="..."/>
